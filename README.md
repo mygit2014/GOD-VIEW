@@ -20,6 +20,7 @@ The project tackles a multitude of topics related to sophisticated networking re
 
 ### The Terminal & GUI User Interfaces
 <img src="/build/github/ui.png" />
+<img src="/build/github/terminal.png" />
 
 ## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
@@ -63,15 +64,4 @@ This is even simpler using the desktop / web UI, you simply click a command, ent
 <img src="/build/github/network architecture.png" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
 
-<img src="/build/github/pdf/01-GOD-VIEW.png" />
-<img src="/build/github/pdf/02-GOD-VIEW.png" />
-<img src="/build/github/pdf/03-GOD-VIEW.png" />
-<img src="/build/github/pdf/04-GOD-VIEW.png" />
-<img src="/build/github/pdf/05-GOD-VIEW.png" />
-<img src="/build/github/pdf/06-GOD-VIEW.png" />
-<img src="/build/github/pdf/07-GOD-VIEW.png" />
-<img src="/build/github/pdf/08-GOD-VIEW.png" />
-<img src="/build/github/pdf/09-GOD-VIEW.png" />
-<img src="/build/github/pdf/10-GOD-VIEW.png" />
-<img src="/build/github/pdf/11-GOD-VIEW.png" />
-<img src="/build/github/pdf/12-GOD-VIEW.png" />
+!['GOD-VIEW.pdf'](/build/github/GOD-VIEW.pdf){width=100% height=400}
