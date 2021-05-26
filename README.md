@@ -26,6 +26,7 @@ The project tackles a multitude of topics related to sophisticated networking re
 ## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
   * These are executable files for Windows
+  * The username & password for the Basic Authentication of the GUI is god & view
 ---
 To run it with Python you simply install the necessary packages. This will also allow for hosting not limited to your localhost
 - pip install -r build/requirements.txt
