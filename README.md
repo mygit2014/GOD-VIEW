@@ -12,7 +12,7 @@ Experimental Remote Access Tool
 * Providing 41 sophisticated commands over 9 categories of actions 
 
 ### The Terminal & GUI User Interfaces
-<img src="/build/github/UI.png" />
+<img src="/build/github/ui.png" />
 
 ## How to Install GOD-VIEW
 * Simply run the host.exe & then bot.exe
@@ -32,7 +32,7 @@ Then run the python scripts
 To support external hosting, simply specify the "-IP" CLI argument to your real IP and modify the Static.IP class variable in client/state.py before using the build command on the server.
 
 ## How to use GOD-VIEW
-<img src="/build/github/Help.png" />
+<img src="/build/github/help.png" />
 
 GOD-VIEW follows a very simple, straight forward way of constructing commands. Use the "help" command in the terminal for all the available options for each command, were parenthesis means the flag is optional. --FLAG is a boolean, while --FLAG [INPUT] means it requires a string input.
 
@@ -49,11 +49,22 @@ To enter multiple clients into a session at the same time you would run:
 To remove these clients from the session, you would run:
 > session --id [Unique ID],[Unique ID],[Unique ID] --remove
 
-<img src="/build/github/GUI Help.png" />
+<img src="/build/github/gui help.png" />
 This is even simpler using the desktop / web UI, you simply click a command, enter the necessary data into the inputs / checkboxes and execute the commands. To enter sessions from the desktop / web UI you would click, CTRL+click or SHIFT+click on any of the connected clients before right-clicking on them to get up a menu with the option to add the selected clients to a session.
 
 ## GOD-VIEW Network Architecture
-<img src="/build/github/Network Architecture.png" />
+<img src="/build/github/network architecture.png" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
 
-<img src="/build/github/GOD-VIEW.pdf" />
+<img src="/build/github/pdf/01-GOD-VIEW.png" />
+<img src="/build/github/pdf/02-GOD-VIEW.png" />
+<img src="/build/github/pdf/03-GOD-VIEW.png" />
+<img src="/build/github/pdf/04-GOD-VIEW.png" />
+<img src="/build/github/pdf/05-GOD-VIEW.png" />
+<img src="/build/github/pdf/06-GOD-VIEW.png" />
+<img src="/build/github/pdf/07-GOD-VIEW.png" />
+<img src="/build/github/pdf/08-GOD-VIEW.png" />
+<img src="/build/github/pdf/09-GOD-VIEW.png" />
+<img src="/build/github/pdf/10-GOD-VIEW.png" />
+<img src="/build/github/pdf/11-GOD-VIEW.png" />
+<img src="/build/github/pdf/12-GOD-VIEW.png" />
