@@ -11,12 +11,13 @@ The project tackles a multitude of topics related to sophisticated networking re
   * Compression
   * Asymmetrical AES Encryption
 * Providing 41 sophisticated commands over 9 categories of actions
- * Support for extensive features with a relatively small executable
-  * ~8MB client & an larger ~58MB server
+ * Initial client connection with 30 data fields gathered
  * Can run any command with one-to-many clients without performance issues
- * Supports an initial client connection
-  * Desktop, Webcam, Audio streams
-  * Keylogger & Clipper
+* Support for extensive features with a relatively small executable
+  * ~8MB client & an larger ~58MB server
+* Streaming sockets for modules
+ * Desktop, Webcam & Audio streams
+ * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
 <img src="/build/github/ui.png" />
@@ -51,4 +52,8 @@ This is even simpler using the desktop / web UI, you simply click a command, ent
 <img src="/build/github/network architecture.png" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
 
-!['GOD-VIEW.pdf'](/build/github/GOD-VIEW.pdf){width=100% height=400}
+<object data="/build/github/GOD-VIEW.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/build/github/GOD-VIEW.pdf">
+     <p>This browser does not support PDFs</p>
+    </embed>
+</object>
