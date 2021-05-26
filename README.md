@@ -28,6 +28,7 @@ The project tackles a multitude of topics related to sophisticated networking re
   * These are executable files for Windows
 ---
 To run it with Python you simply install the necessary packages.
+
 This will also allow for hosting not limited to your localhost
 - pip install -r build/requirements.txt
 - install the necessary .wheel files from build/wheel_requirements.txt
