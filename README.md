@@ -1,5 +1,6 @@
 # GOD-VIEW
-Experimental Remote Access Tool
+Experimental Remote Access Tool written in Python for the Server / Client with an Sqlite3 database. React.js with TypeScript using Redux for global state management & styled components for custom design for the Desktop / Web UI.
+The project tackles a multitude of topics related to sophisticated networking related applications. With support for different operating systems, application types with strong compatibility for Terminal usage, web browsers, mobile usage, scalable data-structures. Supporting smart code-design & modern Python versions.
 * Windows, Mac & Linux OS support
 * Provides a Terminal, Desktop & Web UI
 * Extensive Terminal UX support & Desktop / Web Responsive Design (320x320+)
@@ -9,12 +10,18 @@ Experimental Remote Access Tool
   * Encoding
   * Compression
   * Asymmetrical AES Encryption
-* Providing 41 sophisticated commands over 9 categories of actions 
+* Providing 41 sophisticated commands over 9 categories of actions
+ * Support for extensive features with a relatively small executable
+  * ~8MB client & an larger ~58MB server
+ * Can run any command with one-to-many clients without performance issues
+ * Supports an initial client connection
+  * Desktop, Webcam, Audio streams
+  * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
 <img src="/build/github/ui.png" />
 
-## How to Install GOD-VIEW
+## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
   * These are executable files for Windows
 ---
