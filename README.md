@@ -27,9 +27,7 @@ The project tackles a multitude of topics related to sophisticated networking re
 * Simply run the host.exe & then bot.exe
   * These are executable files for Windows
 ---
-To run it with Python you simply install the necessary packages.
-
-This will also allow for hosting not limited to your localhost
+To run it with Python you simply install the necessary packages. This will also allow for hosting not limited to your localhost
 - pip install -r build/requirements.txt
 - install the necessary .wheel files from build/wheel_requirements.txt
   - PyAudio
@@ -48,6 +46,9 @@ GOD-VIEW follows a very simple, straight forward way of constructing commands. U
 
 <img src="/build/github/gui help.png" />
 This is even simpler using the desktop / web UI, you simply click a command, enter the necessary data into the inputs / checkboxes and execute the commands. To enter sessions from the desktop / web UI you would click, CTRL+click or SHIFT+click on any of the connected clients before right-clicking on them to get up a menu with the option to add the selected clients to a session.
+
+
+
 
 ## GOD-VIEW Network Architecture
 <img src="/build/github/network architecture.png" />
