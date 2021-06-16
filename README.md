@@ -6,6 +6,63 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 
 <img src="/build/github/ui.png" />
 
+## Features
+* TCP Network Stream
+  * IPV4
+  * IPV6
+* OS Support
+  * Windows
+  * Mac
+  * Linux
+* UI Options
+  * Console
+  * Desktop
+  * Web
+* Design
+  * Responsive Design (320x320+)
+  * Mobile Specific Interactions
+  * CLI Colors & Tables
+* Secure & Fast Network Transfer
+  * Asymmetrical AES Encryption
+  * Deflate Compression
+  * Cross Language Support
+    * UTF-8 & Base64
+    * Windows Code Pages
+    * Encoding Error Handling
+  * JSON Serialization
+* ~8MB Client Executable
+* Initial Client Connection
+  * 30 Data Fields Gathered
+  * Continuous Reconnecting
+* One-To-Many Command Execution
+  * No Response Time Impact
+* Stable Reverse Shell
+* Independent Streaming Sockets
+  * Audio Stream (Mic)
+  * Desktop Stream (Any Monitor)
+  * Webcam Stream (Any Device)
+  * Keylogger Stream
+  * Clipper Stream
+* Autotask ANY Command / Commands
+* Credentials Recovery
+* Persistence
+* Privilege Escalation
+* Keystroke / Mouse Injection
+* Python Interpreter
+* Upload / Download (& Execute)
+* Process Management
+* System Actions
+  * Shutdown
+  * Restart
+  * Logout
+  * Hibernate
+  * Standby
+
+### Network Architecture
+<img src="/build/github/network architecture.png" width="640" />
+
+*The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
+
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
 * pip install -r build/requirements.txt
@@ -56,30 +113,6 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * build --file bot.py --icon build/gv.ico
 
 The difference between the builds is that the client script is windowless, becoming a background process operation without the interference of the user.
-
-## Features
-* Windows, Mac & Linux OS support
-* Provides a Terminal, Desktop & Web UI
-* Extensive Terminal UX support & Desktop / Web Responsive Design (320x320+)
-  * Mobile specific interactions & strong browser support
-* Uses TCP sockets, utilizing a custom protocol supporting
-  * Serialization
-  * Encoding
-  * Compression
-  * Asymmetrical AES Encryption
-* Providing 41 sophisticated commands over 9 categories of actions
- * Initial client connection with 30 data fields gathered
- * Can run any command with one-to-many clients without performance issues
-* Support for extensive features with a relatively small executable
-  * ~8MB client & an larger ~58MB server
-* Streaming sockets for modules
- * Desktop, Webcam & Audio streams
- * Keylogger & Clipper
-
-### Network Architecture
-<img src="/build/github/network architecture.png" width="640" />
-
-*The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
 
 ## Documentation
 **Introduction**

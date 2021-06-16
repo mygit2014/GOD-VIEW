@@ -1,4 +1,4 @@
-# Lines: ~3699 (+ 386 Shared) + 2730 (GUI)
+# Lines: ~3700 (+ 386 Shared) + 2730 (GUI)
 from server.state import ServerStatic
 from shared.state import Static
 
