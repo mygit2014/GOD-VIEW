@@ -45,7 +45,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * **To enter a session with a client simply click on the client row & right-click**
     * **Shift + click & control + click is also supported to select multiple rows**
 * **Outside of LAN**
-  * Edit the *client/state.py* file with the appropriate server address
+  * Edit the **client/state.py** file with the appropriate server address
     * Static.IP = \[Your server's IP\]
     * Static.PORT = \[Your server's port\]
 
