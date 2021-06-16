@@ -7,17 +7,9 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 <img src="/build/github/ui.png" />
 
 ## Features
-* TCP Network Stream
-  * IPV4
-  * IPV6
-* OS Support
-  * Windows
-  * Mac
-  * Linux
-* UI Options
-  * Terminal
-  * Desktop
-  * Web
+* TCP Network Stream (IPV4 & IPV6)
+* OS Support (Windows, Mac & Linux)
+* UI Options (Terminal, Desktop & Web)
 * Design
   * Responsive Design (320x320+)
   * Mobile Specific Interactions
@@ -25,11 +17,8 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 * Secure & Fast Network Transfer
   * Asymmetrical AES Encryption
   * Deflate Compression
-  * Cross Language Support
-    * UTF-8 & Base64
-    * Windows Code Pages
-    * Encoding Error Handling
   * JSON Serialization
+  * Cross Language Encoding
 * ~8MB Client Executable
 * Initial Client Connection
   * 30 Data Fields Gathered
@@ -47,16 +36,11 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 * Credentials Recovery
 * Persistence
 * Privilege Escalation
+* Upload / Download (& Execute)
 * Keystroke / Mouse Injection
 * Python Interpreter
-* Upload / Download (& Execute)
 * Process Management
 * System Actions
-  * Shutdown
-  * Restart
-  * Logout
-  * Hibernate
-  * Standby
 
 ### Network Architecture
 <img src="/build/github/network architecture.png" width="640" />
