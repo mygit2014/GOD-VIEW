@@ -73,10 +73,8 @@ The architecture has the terminal window as the main server, the GUI as an inter
 
 
 ---
-title: '<span id="_heading=h.gjdgxs" class="anchor"></span>GOD-VIEW'
+<span id="_heading=h.gjdgxs" class="anchor">GOD-VIEW</span>
 ---
-
-### \
 
 Introduction
 ------------
@@ -183,8 +181,6 @@ websockets **\[back-end\]**.
 
 As mentioned previously, the desktop GUI requires *Google Chrome*
 installed & if it’s not available will default to web GUI.
-
-### \
 
 What are GOD-VIEW's Features?
 -----------------------------
@@ -533,9 +529,6 @@ There are slight limitations when running the client as a non-executable
 file. You cannot do anything that requires the executable file to exist.
 This includes autostart, reconnect, uninstall & escalate.
 
-\
--
-
 Program / File structure
 ------------------------
 
@@ -601,8 +594,6 @@ Ngrok
 
 -   Download ngrok at [*https://ngrok.com/*](https://ngrok.com/)
 
-<!-- -->
-
 -   Make sure ngrok is in the path variable or in your current directory
 
 -   **ngrok tcp -region=eu 5658**
@@ -619,8 +610,6 @@ traffic from, for example *tcp.eu.ngrok.io* & *1832*. Note that if
 you’re using ngrok to access the web application, it does not support
 HTTPS, so you have to use the HTTP version. This is sadly the library
 limitation of which is used for the GUI.
-
-### \
 
 What GOD-VIEW Doesn’t Implement
 -------------------------------
@@ -675,4 +664,3 @@ especially VM detection from what I've seen are implementations
 supporting Windows only. The program does not try to obfuscate anything,
 it’s written in Python, not C, C++, C\# or Delphi. It can be done, but
 has very little purpose to be supported by GOD-VIEW.
-
