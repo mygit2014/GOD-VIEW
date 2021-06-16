@@ -18,7 +18,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * **Terminal 1:** python3 host.py
   * **Terminal 2:** python3 bot.py
 
-## Using GOD-VIEW
+## Usage
 * **Terminal**
   * Use the **help** command to list all available commands
   * **Constructing a command**
