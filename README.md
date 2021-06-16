@@ -24,8 +24,8 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * **Constructing a command**
     * **Part 1:** the command name
     * **Part 2:** the command arguments (boolean / string)
-      * **String**: --FLAG \[INPUT\]
-      * **Boolean**: --FLAG
+      * **String**: --flag \[input\]
+      * **Boolean**: --flag
   * **Commands may look like this**
     * list
     * session --id abcd
