@@ -50,6 +50,13 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
     * Static.IP = \[Your server's IP\]
     * Static.PORT = \[Your server's port\]
 
+## Executable
+* *Requires pyinstaller in path*
+  * build --file host.py --icon build/gv.ico --window
+  * build --file bot.py --icon build/gv.ico
+
+The difference between the builds is that the client script is windowless, becoming a background process operation without the interference of the user.
+
 ## Features
 * TCP Network Stream (IPV4 & IPV6)
 * OS Support (Windows, Mac & Linux)
@@ -90,13 +97,6 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 <img src="/build/github/network architecture.png" width="640" />
 
 > The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.
-
-## Executable
-* *Requires pyinstaller in path*
-  * build --file host.py --icon build/gv.ico --window
-  * build --file bot.py --icon build/gv.ico
-
-The difference between the builds is that the client script is windowless, becoming a background process operation without the interference of the user.
 
 ## Documentation
 **Introduction**
