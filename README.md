@@ -1,10 +1,23 @@
 # GOD-VIEW
+Free, open-source remote access tool for Windows, Mac & Linux.
 
+## Description
 Experimental Remote Access Tool written in Python for the Server / Client with an Sqlite3 database. React.js with TypeScript using Redux for global state management & styled components for custom design for the Desktop / Web UI.
 The project tackles a multitude of topics related to sophisticated networking related applications. With support for different operating systems, application types with strong compatibility for Terminal usage, web browsers, mobile usage, scalable data-structures. Supporting smart code-design & modern Python versions.
 
-## Features
+## Installation
+* git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
+* pip install -r build/requirements.txt
+* Windows
+  * pip install pipwin && pipwin install PyAudio && pipwin install VideoCapture
+  * start python host.py && start python bot.py
+* Mac / Linux
+  * Download PyAudio from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+      * pip3 install \[.wheel filename\]
+  * **Terminal 1:** python3 host.py
+  * **Terminal 2:** python3 bot.py
 
+## Features
 * Windows, Mac & Linux OS support
 * Provides a Terminal, Desktop & Web UI
 * Extensive Terminal UX support & Desktop / Web Responsive Design (320x320+)
@@ -24,11 +37,9 @@ The project tackles a multitude of topics related to sophisticated networking re
  * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
-
 <img src="/build/github/ui.png" />
 
 ## How to run GOD-VIEW
-
 * Simply run the host.exe & then bot.exe
   * These are executable files for Windows
   * The username & password for the Basic Authentication of the GUI is god & view
@@ -46,13 +57,11 @@ Then run the python scripts
 To support external hosting, simply specify the "-IP" CLI argument to your real IP and modify the Static.IP class variable in client/state.py before using the build command on the server.
 
 ## GOD-VIEW Network Architecture
-
-<img src="/build/github/network architecture.png" width="720" />
+<img src="/build/github/network architecture.png" width="480" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
 
 ---
 ## Documentation
-
 **Introduction**
 
 * What is GOD-VIEW?
@@ -92,7 +101,6 @@ Introduction
 ------------
 
 ### What is GOD-VIEW?
-
 GOD-VIEW is a networking application, with the name referring to a view
 from up above, the all seeing eye. GOD-VIEW is the third iteration of
 developing a Remote Access Tool, driven by the motivation of
@@ -113,7 +121,6 @@ HTTP server that communicates with the server through a websocket
 allowing real time communication.
 
 ### What Does GOD-VIEW Achieve?
-
 The GOD-VIEW program supports a large amount of powerful features, that
 I will discuss later on. But on a foundational level, GOD-VIEW allows
 for secure, fast & non-limiting communication between it’s server &
@@ -128,7 +135,6 @@ means, but it will all make sense as I will in detail walk through
 everything the application archives & how the program works.
 
 ### Who can use GOD-VIEW?
-
 The program makes availability one of its core foundational beliefs.
 GOD-VIEW supports the Windows, Linux & Mac operating systems.
 
@@ -152,7 +158,6 @@ GOD-VIEW also supports running the program with an interpreter or as an
 executable.
 
 ### What Makes GOD-VIEW Different?
-
 The things that make GOD-VIEW different can be both seen as positive &
 negative. The major difference is the availability as mentioned. It also
 provides a neat & well thought out design, with soothing color schemes &
@@ -172,7 +177,6 @@ from every client. GOD-VIEW also never writes / stores anything on the
 client’s filesystem.
 
 ### How was GOD-VIEW Built?
-
 GOD-VIEW was built using the Python (blessing & a curse) programming
 language, following the object oriented paradigm, for the client /
 server & supports *Python 3.7+*.
@@ -198,18 +202,15 @@ What are GOD-VIEW's Features?
 -----------------------------
 
 ### Operating Systems
-
 * Windows
 * Linux
 * Mac
 
 ### IP Versions
-
 * IPV4
 * IPV6
 
 ### Usage
-
 * Terminal (Command Line)
 * Desktop Application
 * Web Application
@@ -219,12 +220,9 @@ What are GOD-VIEW's Features?
   * Login Protection
 
 ### Data Transport
-
 #### Protocol
-
 * Transmission Control Protocol (TCP)
   * Transport Level Protocol
-
 #### Encryption
 
 * Asymmetrical AES128
@@ -234,7 +232,6 @@ What are GOD-VIEW's Features?
   * Requires DNS Hostname
 
 #### Compression
-
 * Deflate Compression
 * PNG Image Compression
 * \[Not JPEG\]
@@ -243,20 +240,17 @@ What are GOD-VIEW's Features?
   * *Supports Lossy Compression*
 
 #### Encoding
-
 * UTF-8
   * Windows Code Page Support
 * Base64
 
 #### Serialization
-
 * JSON
 * \[Not Pickle\]
   * A lot Easier Usage
   * Allows Remote Code Execution
 
 ### Surveillance
-
 GOD-VIEW supports multiple ways of gathering large amounts of
 information, with 30 data points upon initial connection, this is among
 other things the country, operating system, antivirus & privileges of
@@ -282,7 +276,6 @@ without the option of taking a single snapshot of all connected webcams.
 **\[Screenshot / Snapshot\]**
 
 ### Action
-
 The action namespace holds commands with the intent to perform specific
 system actions. You can shutdown, restart, logout, hibernate & standby
 the clients computer. **\[System\]**
@@ -303,7 +296,6 @@ The browse command allows you to enter one or more URLs to be opened in
 the default browser of the client system. **\[Browse\]**
 
 ### Execution
-
 When it comes to the execution namespace, it holds some of the most
 interesting & vital commands. It allows inline injection of keyboard /
 mouse actions or running a script from a file. The language of this
@@ -362,7 +354,6 @@ will time out, after Z amount of time, therefore interactive programs
 like Python or Node would simply timeout. **\[Shell\]**
 
 ### Management
-
 The management namespace is about simplifying tasks & specifying how the
 program shall operate. This is done with the blacklist command by
 allowing the rejection of specific connecting IP addresses. The alias
@@ -378,7 +369,6 @@ example alerting an email upon client connection. **\[Blacklist / Alias
 / Autotask / Environment\]**
 
 ### Connection
-
 The connection namespace focuses on the handling of anything that
 specifically handles the connection or the file on the client’s
 filesystem. Starting off by targeting persistence of the client program,
@@ -405,7 +395,6 @@ which is escalate. It will try to perform an user authentication bypass
 without ever having to ask the user. **\[Escalate\]**
 
 ### Utility
-
 The utility namespace is very straight forward, with a couple of
 commands that support the general flow of the program. The build command
 allows you to build GOD-VIEW into an executable program, being able to
@@ -422,7 +411,6 @@ The gui command will simply reopen the desktop application, to be used
 in case you close the window. **\[Gui\]**
 
 ### Live
-
 Live is one of the most challenging namespaces, these are the most
 powerful commands GOD-VIEW has to offer, providing live streams of data,
 each with their own socket connection. This holds a difficult challenge
@@ -470,13 +458,11 @@ server, providing client side timestamps & fair representation of
 performed actions. **\[Keylogger / Clipper\]**
 
 ### Multiplex
-
 The multiplex namespace has only two commands, all & close. These will
 simply add every connected client to the session or remove every single
 client from the session. **\[All / Close\]**
 
 ### Terminal
-
 This namespace refers to commands that are primarily used in the
 terminal of the server, as it’s features are utilized by default in the
 desktop / web GUI. Alternatively are they specifically to be used only
