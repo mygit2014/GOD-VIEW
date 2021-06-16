@@ -17,6 +17,38 @@ The project tackles a multitude of topics related to sophisticated networking re
   * **Terminal 1:** python3 host.py
   * **Terminal 2:** python3 bot.py
 
+## Using GOD-VIEW
+* Terminal
+  * Use the **help** command to list all available commands
+  * Constructing a command
+    * **Part 1:** the command name
+    * **Part 2:** the inputs, they require either a boolean flag or a string input
+      * **String**: --FLAG \[INPUT\]
+      * **Boolean**: --FLAG
+  * Commands may look like this:
+    * list
+    * session --id abcd
+    * session --id abcd --remove
+    * screenshot --monitor 1 --show
+* GUI
+  * Click the button above "No Active Windows To Manage" to view all available commands.
+    * Commands with a link icon beside them requires an active session
+    * Commands with a list icon beside them takes parameter input (flags)
+      * If the command does not take any parameters, it might simply run the command
+        without creating a window
+  * Click on a command button
+    * Fill out the command inputs if necessary
+    * Execute the command
+  * To enter a session with a client simply click on the client row & right + click
+    * Shift + click & control + click is also supported to select multiple rows
+
+## Executable
+* *Requires pyinstaller in path*
+  * build --icon build/gv.ico --window host.py
+  * build --icon build/gv.ico bot.py
+
+The difference between the EXE installations is that the client script is windowless, becoming a background process operation without the interference of the user.
+
 ## Features
 * Windows, Mac & Linux OS support
 * Provides a Terminal, Desktop & Web UI
@@ -54,12 +86,12 @@ Then run the python scripts
 * python host.py
 * python bot.py
 ---
-To support external hosting, simply specify the "-IP" CLI argument to your real IP and modify the Static.IP class variable in client/state.py before using the build command on the server.
+To support external hosting, simply specify the "-IP" CLI argument to your real IP & modify the Static.IP class variable in client/state.py before using the build command on the server.
 
 ## GOD-VIEW Network Architecture
 <img src="/build/github/network architecture.png" width="640" />
 
-*The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.*
+*The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
 
 ---
 ## Documentation
@@ -334,7 +366,7 @@ The language consists of key, value pairs, separated by a space.
     * allows nested repeat statements.
 
 * **\[position / move / scroll\] random \[min X, max X,min Y,max Y\]**
-  * Can be used by any command taking an X & Y parameter, and
+  * Can be used by any command taking an X & Y parameter, &
     * requires instead of X & Y four values, for the minimum &
       maximum random value for the X, respectively the Y.
 
