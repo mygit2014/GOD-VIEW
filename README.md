@@ -4,6 +4,8 @@ Free, open-source remote access tool for Windows, Mac & Linux.
 ## Description
 GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive features & flexibility. It has a CLI along with a Desktop / Web GUI. Supporting Windows, Mac & Linux, responsive design & an organized CLI. All commands can be run on 100+ clients without impacting the response time.
 
+<img src="/build/github/ui.png" />
+
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
 * pip install -r build/requirements.txt
@@ -53,7 +55,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * build --file host.py --icon build/gv.ico --window
   * build --file bot.py --icon build/gv.ico
 
-The difference between the EXE installations is that the client script is windowless, becoming a background process operation without the interference of the user.
+The difference between the builds is that the client script is windowless, becoming a background process operation without the interference of the user.
 
 ## Features
 * Windows, Mac & Linux OS support
@@ -73,9 +75,6 @@ The difference between the EXE installations is that the client script is window
 * Streaming sockets for modules
  * Desktop, Webcam & Audio streams
  * Keylogger & Clipper
-
-### The Terminal & GUI User Interfaces
-<img src="/build/github/ui.png" />
 
 ## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
