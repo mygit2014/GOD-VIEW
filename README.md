@@ -81,7 +81,6 @@ The difference between the builds is that the client script is windowless, becom
 
 *The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
 
----
 ## Documentation
 **Introduction**
 
