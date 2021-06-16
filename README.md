@@ -76,24 +76,7 @@ The difference between the builds is that the client script is windowless, becom
  * Desktop, Webcam & Audio streams
  * Keylogger & Clipper
 
-## How to run GOD-VIEW
-* Simply run the host.exe & then bot.exe
-  * These are executable files for Windows
-  * The username & password for the Basic Authentication of the GUI is god & view
----
-To run it with Python you simply install the necessary packages. This will also allow for hosting not limited to your localhost
-* pip install -r build/requirements.txt
-* install the necessary .wheel files from build/wheel_requirements.txt
-  * PyAudio
-  * VideoCapture when using Windows
----
-Then run the python scripts
-* python host.py
-* python bot.py
----
-To support external hosting, simply specify the "-IP" CLI argument to your real IP & modify the Static.IP class variable in client/state.py before using the build command on the server.
-
-## GOD-VIEW Network Architecture
+### Network Architecture
 <img src="/build/github/network architecture.png" width="640" />
 
 *The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
