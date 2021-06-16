@@ -23,7 +23,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * Use the **help** command to list all available commands
   * **Constructing a command**
     * **Part 1:** the command name
-    * **Part 2:** the arguments, either a boolean flag or a string input
+    * **Part 2:** the command arguments (boolean / string)
       * **String**: --FLAG \[INPUT\]
       * **Boolean**: --FLAG
   * **Commands may look like this**
