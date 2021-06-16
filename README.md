@@ -58,6 +58,7 @@ To support external hosting, simply specify the "-IP" CLI argument to your real 
 
 ## GOD-VIEW Network Architecture
 <img src="/build/github/network architecture.png" width="640" />
+
 *The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.*
 
 ---
