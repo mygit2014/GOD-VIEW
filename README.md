@@ -61,7 +61,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 ### Network Architecture
 <img src="/build/github/network architecture.png" width="640" />
 
-*The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.*
+> The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.
 
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
