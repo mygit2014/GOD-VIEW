@@ -33,8 +33,8 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
     * screenshot --monitor 1 --show
 * **GUI**
   * **Default login credentials**
-    * Username: god
-    * Password: view
+    * **Username:** god
+    * **Password:** view
   * **Click the button above "No Active Windows To Manage" to view all available commands**
     * Commands with a link icon beside them requires an active session
     * Commands with a list icon beside them takes parameter input (flags)
