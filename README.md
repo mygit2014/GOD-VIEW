@@ -50,8 +50,8 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 
 ## Executable
 * *Requires pyinstaller in path*
-  * build --icon build/gv.ico --window host.py
-  * build --icon build/gv.ico bot.py
+  * build --file host.py --icon build/gv.ico --window
+  * build --file bot.py --icon build/gv.ico
 
 The difference between the EXE installations is that the client script is windowless, becoming a background process operation without the interference of the user.
 
