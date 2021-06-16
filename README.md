@@ -60,7 +60,6 @@ The difference between the builds is that the client script is windowless, becom
 * TCP Network Stream (IPV4 & IPV6)
 * OS Support (Windows, Mac & Linux)
 * UI Options (Terminal, Desktop & Web)
-* Responsive Design (320x320+)
 * Secure & Fast Network Transfer
   * Asymmetrical AES Encryption
   * Deflate Compression
