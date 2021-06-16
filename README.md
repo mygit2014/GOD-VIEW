@@ -60,18 +60,13 @@ The difference between the builds is that the client script is windowless, becom
 * TCP Network Stream (IPV4 & IPV6)
 * OS Support (Windows, Mac & Linux)
 * UI Options (Terminal, Desktop & Web)
-* Design
-  * Responsive Design (320x320+)
-  * Mobile Specific Interactions
-  * CLI Colors & Tables
+* Responsive Design (320x320+)
 * Secure & Fast Network Transfer
   * Asymmetrical AES Encryption
   * Deflate Compression
   * JSON Serialization
   * Cross Language Encoding
 * ~8MB Client Executable
-* One-To-Many Command Execution
-  * No Response Time Impact
 * Stable Reverse Shell
 * Independent Streaming Sockets
   * Audio Stream (Mic)
