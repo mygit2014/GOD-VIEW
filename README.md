@@ -41,8 +41,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
       * If the command does not take any parameters, it might simply run the command
         without creating a window
   * **Click on a command button**
-    * Fill out the command arguments if necessary
-    * Execute the command
+    * Fill out the command arguments if necessary before executing the command
   * **To enter a session with a client simply click on the client row & right + click**
     * **Shift + click & control + click is also supported to select multiple rows**
 * **Outside of LAN**
