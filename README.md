@@ -74,6 +74,7 @@ The architecture has the terminal window as the main server, the GUI as an inter
 
 ---
 <span id="_heading=h.gjdgxs" class="anchor">GOD-VIEW</span>
+---
 
 Introduction
 ------------
