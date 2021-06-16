@@ -32,7 +32,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
     * session --id abcd --remove
     * screenshot --monitor 1 --show
 * **GUI**
-  * **GUI default login credentials**
+  * **Default login credentials**
     * Username: god
     * Password: view
   * **Click the button above "No Active Windows To Manage" to view all available commands**
