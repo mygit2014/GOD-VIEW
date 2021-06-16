@@ -37,7 +37,7 @@ The project tackles a multitude of topics related to sophisticated networking re
  * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
-<img src="/build/github/ui.png" />
+<img src="/build/github/ui.png#center" />
 
 ## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
