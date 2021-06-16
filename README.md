@@ -1,6 +1,9 @@
 # GOD-VIEW
+
 Experimental Remote Access Tool written in Python for the Server / Client with an Sqlite3 database. React.js with TypeScript using Redux for global state management & styled components for custom design for the Desktop / Web UI.
 The project tackles a multitude of topics related to sophisticated networking related applications. With support for different operating systems, application types with strong compatibility for Terminal usage, web browsers, mobile usage, scalable data-structures. Supporting smart code-design & modern Python versions.
+
+## Features
 
 * Windows, Mac & Linux OS support
 * Provides a Terminal, Desktop & Web UI
@@ -21,60 +24,31 @@ The project tackles a multitude of topics related to sophisticated networking re
  * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
+
 <img src="/build/github/ui.png" />
-<img src="/build/github/terminal.png" />
 
 ## How to run GOD-VIEW
+
 * Simply run the host.exe & then bot.exe
   * These are executable files for Windows
   * The username & password for the Basic Authentication of the GUI is god & view
 ---
 To run it with Python you simply install the necessary packages. This will also allow for hosting not limited to your localhost
-*  pip install -r build/requirements.txt
-
-*  install the necessary .wheel files from build/wheel_requirements.txt
-
-  *  PyAudio
-
-  *  VideoCapture when using Windows
+* pip install -r build/requirements.txt
+* install the necessary .wheel files from build/wheel_requirements.txt
+  * PyAudio
+  * VideoCapture when using Windows
 ---
 Then run the python scripts
-*  python host.py
-
-*  python bot.py
+* python host.py
+* python bot.py
 ---
 To support external hosting, simply specify the "-IP" CLI argument to your real IP and modify the Static.IP class variable in client/state.py before using the build command on the server.
 
-## How to use GOD-VIEW
-
-<img src="/build/github/help.png" />
-
-GOD-VIEW follows a very simple, straight forward way of constructing commands. Use the "help" command in the terminal for all the available options for each command, were parenthesis means the flag is optional. --FLAG is a boolean, while --FLAG [INPUT] means it requires a string input.
-
-<img src="/build/github/gui help.png" />
-This is even simpler using the desktop / web UI, you simply click a command, enter the necessary data into the inputs / checkboxes and execute the commands. To enter sessions from the desktop / web UI you would click, CTRL+click or SHIFT+click on any of the connected clients before right-clicking on them to get up a menu with the option to add the selected clients to a session.
-
 ## GOD-VIEW Network Architecture
 
-<img src="/build/github/network architecture.png" />
+<img src="/build/github/network architecture.png" width="720" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
-
-<object data="/build/github/GOD-VIEW.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/build/github/GOD-VIEW.pdf">
-     <p>This browser does not support PDFs</p>
-    </embed>
-</object>
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 ## Documentation
@@ -82,52 +56,28 @@ The architecture has the terminal window as the main server, the GUI as an inter
 **Introduction**
 
 * What is GOD-VIEW?
-
   * What Does GOD-VIEW Achieve?
-
   * Who can use GOD-VIEW?
-
   * What Makes GOD-VIEW Different?
-
   * How was GOD-VIEW Built?
-
 * What are GOD-VIEW's Features?
-
   * Operating Systems
-
   * IP Versions
-
   * Usage
-
   * Data Transport
-
     * Protocol
-
     * Encryption
-
     * Compression
-
     * Encoding
-
     * Serialization
-
   * Surveillance
-
   * Action
-
   * Execution
-
   * Management
-
   * Connection
-
   * Utility
-
-
   * Live
-
   * Multiplex
-
   * Terminal
 
 **The  Different Ways of Running GOD-VIEW**
@@ -249,85 +199,61 @@ What are GOD-VIEW's Features?
 
 ### Operating Systems
 
-*  Windows
-
-*  Linux
-
-*  Mac
+* Windows
+* Linux
+* Mac
 
 ### IP Versions
 
-*  IPV4
-
-*  IPV6
+* IPV4
+* IPV6
 
 ### Usage
 
-*  Terminal (Command Line)
-
-*  Desktop Application
-
-*  Web Application
-
-    *  All Major Browsers
-
-    *  Responsive Design (320x320+)
-
-        *  Mobile friendly
-
-    *  Login Protection
+* Terminal (Command Line)
+* Desktop Application
+* Web Application
+  * All Major Browsers
+  * Responsive Design (320x320+)
+    * Mobile friendly
+  * Login Protection
 
 ### Data Transport
 
 #### Protocol
 
-*  Transmission Control Protocol (TCP)
-
-    *  Transport Level Protocol
+* Transmission Control Protocol (TCP)
+  * Transport Level Protocol
 
 #### Encryption
 
-*  Asymmetrical AES128
-
-*  \[Not SSL\]
-
-    *  Self-Signed Certificates Require OpenSSL
-
-    *  Requires Certification Expiration Date
-
-    *  Requires DNS Hostname
+* Asymmetrical AES128
+* \[Not SSL\]
+  * Self-Signed Certificates Require OpenSSL
+  * Requires Certification Expiration Date
+  * Requires DNS Hostname
 
 #### Compression
 
-*  Deflate Compression
-
-*  PNG Image Compression
-
-*  \[Not JPEG\]
-
-    *  Can be Less Effective
-
-    *  *Implementations difficulties*
-
-    *  *Supports Lossy Compression*
+* Deflate Compression
+* PNG Image Compression
+* \[Not JPEG\]
+  * Can be Less Effective
+  * *Implementations difficulties*
+  * *Supports Lossy Compression*
 
 #### Encoding
 
-*  UTF-8
-
-    *  Windows Code Page Support
-
-*  Base64
+* UTF-8
+  * Windows Code Page Support
+* Base64
 
 #### Serialization
 
-*  JSON
-
-*  \[Not Pickle\]
-
-    *  A lot Easier Usage
-
-    *  Allows Remote Code Execution
+* JSON
+* \[Not Pickle\]
+  * A lot Easier Usage
+  * Allows Remote Code Execution
 
 ### Surveillance
 
@@ -409,18 +335,15 @@ The language consists of key, value pairs, separated by a space.
 
 *Unique flow control commands*
 
-*  **sleep \[Seconds\]**
+* **sleep \[Seconds\]**
+* **repeat \[Times\]**
+  * Repeats all subsequent actions for Z times, this is recursive &
+    * allows nested repeat statements.
 
-*  **repeat \[Times\]**
-
-    *  Repeats all subsequent actions for Z times, this is recursive &
-        * allows nested repeat statements.
-
-*  **\[position / move / scroll\] random \[min X, max X,min Y,max Y\]**
-
-    *  Can be used by any command taking an X & Y parameter, and
-        * requires instead of X & Y four values, for the minimum &
-          maximum random value for the X, respectively the Y.
+* **\[position / move / scroll\] random \[min X, max X,min Y,max Y\]**
+  * Can be used by any command taking an X & Y parameter, and
+    * requires instead of X & Y four values, for the minimum &
+      maximum random value for the X, respectively the Y.
 
 The injection command can be used to perform automated keyboard / mouse
 activity, supporting recursive loops & random coordinates, making it
@@ -595,52 +518,43 @@ Program / File structure
 ------------------------
 
 **host.py**
-
-*  Starts the server threads, this includes hosting the TCP server, the
-    > messaging thread & the desktop / web HTTP server.
+* Starts the server threads, this includes hosting the TCP server, the
+  * messaging thread & the desktop / web HTTP server.
 
 **bot.py**
-
-*  Starting the main thread, connecting to the remote server, which is
-    > started by running the host.py file.
+* Starting the main thread, connecting to the remote server, which is
+  * started by running the host.py file.
 
 **archive**
-
-*  Contains all program data, server logs, database file & client
-    > specific files. The files are automatically generated & the file
-    > structure organized as such, this file can be deleted at any time,
-    > without ever disturbing anything during runtime.
+* Contains all program data, server logs, database file & client
+  * specific files. The files are automatically generated & the file
+  * structure organized as such, this file can be deleted at any time,
+  * without ever disturbing anything during runtime.
 
 **build**
-
-*  Files that are related to running & installing the program & acts as
-    > a miscellaneous directory.
+* Files that are related to running & installing the program & acts as
+  * a miscellaneous directory.
 
 **gui**
-
-*  The necessary desktop / web GUI production build files, required to
-    > be in the root directory of which the program is run.
+* The necessary desktop / web GUI production build files, required to
+  * be in the root directory of which the program is run.
 
 **exe**
-
-*  Stores the executable build files generated using the build command.
+* Stores the executable build files generated using the build command.
 
 **client**
-
-*  Stores client specific behaviour & implementations. To support all
-    > the client functionality & to fulfill requests.
+* Stores client specific behaviour & implementations. To support all
+  * the client functionality & to fulfill requests.
 
 **server**
-
-*  The server specific files, but also the GUI application. This is a
-    > large majority of the program, as this handles everything, not
-    > just following directions like the client.
+* The server specific files, but also the GUI application. This is a
+  * large majority of the program, as this handles everything, not
+  * just following directions like the client.
 
 **shared**
-
-*  Files that both the client & server can share, to reuse the same
-    > implementations, this has a lot to do with sending & receiving the
-    > data & shared state.
+* Files that both the client & server can share, to reuse the same
+  * implementations, this has a lot to do with sending & receiving the
+  * data & shared state.
 
 GOD-VIEW Outside of the Local Network
 -------------------------------------
@@ -652,19 +566,13 @@ forwarding for you. The second choice is to do the port forwarding of
 your router yourself. The third option would be to remotely host the
 program & enable the -WEB command line argument.
 
-Ngrok
-
-*  Download ngrok at [*https://ngrok.com/*](https://ngrok.com/)
-
-*  Make sure ngrok is in the path variable or in your current directory
-
-*  **ngrok tcp -region=eu 5658**
-
-    *  Running this makes the TCP server available to the internet.
-
-*  **ngrok http -region=us 8565**
-
-    *  Running this makes the HTTP web GUI available to the internet.
+**Ngrok**
+* Download ngrok at [*https://ngrok.com/*](https://ngrok.com/)
+* Make sure ngrok is in the path variable or in your current directory
+* **ngrok tcp -region=eu 5658**
+  * Running this makes the TCP server available to the internet.
+* **ngrok http -region=us 8565**
+  * Running this makes the HTTP web GUI available to the internet.
 
 After this, you would simply change the *Static.IP* & *Static.PORT* in
 the *GOD-VIEW/client/state.py* file to the IP & port ngrok redirects
