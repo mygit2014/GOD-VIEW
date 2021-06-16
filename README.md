@@ -70,9 +70,6 @@ The difference between the builds is that the client script is windowless, becom
   * JSON Serialization
   * Cross Language Encoding
 * ~8MB Client Executable
-* Initial Client Connection
-  * 30 Data Fields Gathered
-  * Continuous Reconnecting
 * One-To-Many Command Execution
   * No Response Time Impact
 * Stable Reverse Shell
