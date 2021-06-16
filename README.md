@@ -37,7 +37,7 @@ The project tackles a multitude of topics related to sophisticated networking re
  * Keylogger & Clipper
 
 ### The Terminal & GUI User Interfaces
-<img src="/build/github/ui.png#center" />
+<img src="/build/github/ui.png" />
 
 ## How to run GOD-VIEW
 * Simply run the host.exe & then bot.exe
@@ -57,7 +57,7 @@ Then run the python scripts
 To support external hosting, simply specify the "-IP" CLI argument to your real IP and modify the Static.IP class variable in client/state.py before using the build command on the server.
 
 ## GOD-VIEW Network Architecture
-<img src="/build/github/network architecture.png" width="480" />
+<img src="/build/github/network architecture.png" width="640" />
 The architecture has the terminal window as the main server, the GUI as an interface for the terminal and then the connecting clients.
 
 ---
