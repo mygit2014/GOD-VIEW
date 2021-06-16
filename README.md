@@ -37,7 +37,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
     * **Password:** view
   * **Click the button above "No Active Windows To Manage" to view all available commands**
     * Commands with a link icon beside them requires an active session
-    * Commands with a list icon beside them takes parameter input (flags)
+    * Commands with a list icon beside them has arguments (flags)
       * If the command does not take any parameters, it might simply run the command
         without creating a window
   * **Click on a command button**
