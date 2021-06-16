@@ -15,7 +15,7 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * Mac
   * Linux
 * UI Options
-  * Console
+  * Terminal
   * Desktop
   * Web
 * Design
