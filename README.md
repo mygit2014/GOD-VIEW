@@ -2,8 +2,7 @@
 Free, open-source remote access tool for Windows, Mac & Linux.
 
 ## Description
-Experimental Remote Access Tool written in Python for the Server / Client with an Sqlite3 database. React.js with TypeScript using Redux for global state management & styled components for custom design for the Desktop / Web UI.
-The project tackles a multitude of topics related to sophisticated networking related applications. With support for different operating systems, application types with strong compatibility for Terminal usage, web browsers, mobile usage, scalable data-structures. Supporting smart code-design & modern Python versions.
+GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive features & flexibility. It has a CLI along with a Desktop / Web GUI. Supporting Windows, Mac & Linux, responsive design & an organized CLI. All commands can be run on 100+ clients without impacting the response time.
 
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
@@ -31,6 +30,9 @@ The project tackles a multitude of topics related to sophisticated networking re
     * session --id abcd --remove
     * screenshot --monitor 1 --show
 * **GUI**
+  * **GUI default login credentials**
+    * Username: god
+    * Password: view
   * **Click the button above "No Active Windows To Manage" to view all available commands**
     * Commands with a link icon beside them requires an active session
     * Commands with a list icon beside them takes parameter input (flags)
@@ -41,6 +43,10 @@ The project tackles a multitude of topics related to sophisticated networking re
     * Execute the command
   * **To enter a session with a client simply click on the client row & right + click**
     * **Shift + click & control + click is also supported to select multiple rows**
+* **Outside of LAN**
+  * Edit the *client/state.py* file with the appropriate server address
+    * Static.IP = \[Your server's IP\]
+    * Static.PORT = \[Your server's port\]
 
 ## Executable
 * *Requires pyinstaller in path*
