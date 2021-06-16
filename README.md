@@ -8,39 +8,39 @@ The project tackles a multitude of topics related to sophisticated networking re
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
 * pip install -r build/requirements.txt
-* Windows
+* **Windows**
   * pip install pipwin && pipwin install PyAudio && pipwin install VideoCapture
   * start python host.py && start python bot.py
-* Mac / Linux
+* **Mac / Linux**
   * Download PyAudio from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
       * pip3 install \[.wheel filename\]
   * **Terminal 1:** python3 host.py
   * **Terminal 2:** python3 bot.py
 
 ## Using GOD-VIEW
-* Terminal
+* **Terminal**
   * Use the **help** command to list all available commands
-  * Constructing a command
+  * **Constructing a command**
     * **Part 1:** the command name
     * **Part 2:** the inputs, they require either a boolean flag or a string input
       * **String**: --FLAG \[INPUT\]
       * **Boolean**: --FLAG
-  * Commands may look like this:
+  * **Commands may look like this**
     * list
     * session --id abcd
     * session --id abcd --remove
     * screenshot --monitor 1 --show
-* GUI
-  * Click the button above "No Active Windows To Manage" to view all available commands.
+* **GUI**
+  * **Click the button above "No Active Windows To Manage" to view all available commands**
     * Commands with a link icon beside them requires an active session
     * Commands with a list icon beside them takes parameter input (flags)
       * If the command does not take any parameters, it might simply run the command
         without creating a window
-  * Click on a command button
+  * **Click on a command button**
     * Fill out the command inputs if necessary
     * Execute the command
-  * To enter a session with a client simply click on the client row & right + click
-    * Shift + click & control + click is also supported to select multiple rows
+  * **To enter a session with a client simply click on the client row & right + click**
+    * **Shift + click & control + click is also supported to select multiple rows**
 
 ## Executable
 * *Requires pyinstaller in path*
