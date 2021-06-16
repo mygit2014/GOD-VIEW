@@ -18,35 +18,34 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * **Terminal 1:** python3 host.py
   * **Terminal 2:** python3 bot.py
 
-## Using GOD-VIEW
+## Usage
 * **Terminal**
   * Use the **help** command to list all available commands
   * **Constructing a command**
     * **Part 1:** the command name
-    * **Part 2:** the inputs, they require either a boolean flag or a string input
-      * **String**: --FLAG \[INPUT\]
-      * **Boolean**: --FLAG
+    * **Part 2:** the command arguments (boolean / string)
+      * **String**: --flag \[input\]
+      * **Boolean**: --flag
   * **Commands may look like this**
     * list
     * session --id abcd
     * session --id abcd --remove
     * screenshot --monitor 1 --show
 * **GUI**
-  * **GUI default login credentials**
-    * Username: god
-    * Password: view
+  * **Default login credentials**
+    * **Username:** god
+    * **Password:** view
   * **Click the button above "No Active Windows To Manage" to view all available commands**
     * Commands with a link icon beside them requires an active session
-    * Commands with a list icon beside them takes parameter input (flags)
+    * Commands with a list icon beside them has arguments (flags)
       * If the command does not take any parameters, it might simply run the command
         without creating a window
   * **Click on a command button**
-    * Fill out the command inputs if necessary
-    * Execute the command
-  * **To enter a session with a client simply click on the client row & right + click**
+    * Fill out the command arguments if necessary before executing the command
+  * **To enter a session with a client simply click on the client row & right-click**
     * **Shift + click & control + click is also supported to select multiple rows**
 * **Outside of LAN**
-  * Edit the *client/state.py* file with the appropriate server address
+  * Edit the **client/state.py** file with the appropriate server address
     * Static.IP = \[Your server's IP\]
     * Static.PORT = \[Your server's port\]
 
@@ -61,21 +60,13 @@ The difference between the builds is that the client script is windowless, becom
 * TCP Network Stream (IPV4 & IPV6)
 * OS Support (Windows, Mac & Linux)
 * UI Options (Terminal, Desktop & Web)
-* Design
-  * Responsive Design (320x320+)
-  * Mobile Specific Interactions
-  * CLI Colors & Tables
+* Responsive Design (320x320+)
 * Secure & Fast Network Transfer
   * Asymmetrical AES Encryption
   * Deflate Compression
   * JSON Serialization
   * Cross Language Encoding
 * ~8MB Client Executable
-* Initial Client Connection
-  * 30 Data Fields Gathered
-  * Continuous Reconnecting
-* One-To-Many Command Execution
-  * No Response Time Impact
 * Stable Reverse Shell
 * Independent Streaming Sockets
   * Audio Stream (Mic)
