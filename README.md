@@ -6,47 +6,6 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
 
 <img src="/build/github/ui.png" />
 
-## Features
-* TCP Network Stream (IPV4 & IPV6)
-* OS Support (Windows, Mac & Linux)
-* UI Options (Terminal, Desktop & Web)
-* Design
-  * Responsive Design (320x320+)
-  * Mobile Specific Interactions
-  * CLI Colors & Tables
-* Secure & Fast Network Transfer
-  * Asymmetrical AES Encryption
-  * Deflate Compression
-  * JSON Serialization
-  * Cross Language Encoding
-* ~8MB Client Executable
-* Initial Client Connection
-  * 30 Data Fields Gathered
-  * Continuous Reconnecting
-* One-To-Many Command Execution
-  * No Response Time Impact
-* Stable Reverse Shell
-* Independent Streaming Sockets
-  * Audio Stream (Mic)
-  * Desktop Stream (Any Monitor)
-  * Webcam Stream (Any Device)
-  * Keylogger Stream
-  * Clipper Stream
-* Autotask ANY Command / Commands
-* Credentials Recovery
-* Persistence
-* Privilege Escalation
-* Upload / Download (& Execute)
-* Keystroke / Mouse Injection
-* Python Interpreter
-* Process Management
-* System Actions
-
-### Network Architecture
-<img src="/build/github/network architecture.png" width="640" />
-
-> The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.
-
 ## Installation
 * git clone https://github.com/Alvin-22/GOD-VIEW.git && cd GOD-VIEW
 * pip install -r build/requirements.txt
@@ -90,6 +49,47 @@ GOD-VIEW (3/3) hosts an TCP & HTTP server, supporting C2C with extensive feature
   * Edit the *client/state.py* file with the appropriate server address
     * Static.IP = \[Your server's IP\]
     * Static.PORT = \[Your server's port\]
+
+## Features
+* TCP Network Stream (IPV4 & IPV6)
+* OS Support (Windows, Mac & Linux)
+* UI Options (Terminal, Desktop & Web)
+* Design
+  * Responsive Design (320x320+)
+  * Mobile Specific Interactions
+  * CLI Colors & Tables
+* Secure & Fast Network Transfer
+  * Asymmetrical AES Encryption
+  * Deflate Compression
+  * JSON Serialization
+  * Cross Language Encoding
+* ~8MB Client Executable
+* Initial Client Connection
+  * 30 Data Fields Gathered
+  * Continuous Reconnecting
+* One-To-Many Command Execution
+  * No Response Time Impact
+* Stable Reverse Shell
+* Independent Streaming Sockets
+  * Audio Stream (Mic)
+  * Desktop Stream (Any Monitor)
+  * Webcam Stream (Any Device)
+  * Keylogger Stream
+  * Clipper Stream
+* Autotask ANY Command / Commands
+* Credentials Recovery
+* Persistence
+* Privilege Escalation
+* Upload / Download (& Execute)
+* Keystroke / Mouse Injection
+* Python Interpreter
+* Process Management
+* System Actions
+
+### Network Architecture
+<img src="/build/github/network architecture.png" width="640" />
+
+> The architecture has the Terminal window as the main server, the GUI as an interface for the Terminal & then the connecting clients.
 
 ## Executable
 * *Requires pyinstaller in path*
